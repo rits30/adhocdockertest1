@@ -1,0 +1,3 @@
+docker volume create riteshanswer5
+docker run -it --name rites5h5 -v riteshanswer5:/adhocvol -v /etc/passwd:/yoo.txt alpine sh
+wc -l yoo.txt >/adhocvol/yoocounter.txt
