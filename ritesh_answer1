@@ -1,0 +1,6 @@
+#1st Task
+
+docker build -t alpine:ritesh
+docker run -it --name ashuc1q1 alpine:ritesh
+docker run alpine:ritesh >>rit1.txt
+docker run alpine:ritesh
