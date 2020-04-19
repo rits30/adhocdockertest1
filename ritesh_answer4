@@ -1,0 +1,18 @@
+Dockerfile:----
+
+from centos
+maintainer rporwal301999@gmail.com
+Run yum install httpd -y
+expose 80
+Entrypoint httpd-DFOREGROUND
+
+
+
+terminal:---------
+git clone https://github.com/rits30/beginner-html-site-styled.git
+docker build -t ritesh:ritesh_answer4
+docker run -d --name rites4h4 -p 7890:80 ritesh:ritesh_answer4
+
+
+to access this page----------in browser
+http://52.204.127.145:7890
