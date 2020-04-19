@@ -1,0 +1,2 @@
+docker run -d --name rites3h3 -p 3456:80 dockerashu/ckad:v2
+http://52.204.127.145:3456
